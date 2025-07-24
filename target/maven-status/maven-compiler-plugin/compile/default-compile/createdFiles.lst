@@ -1,0 +1,6 @@
+pe\valdemar\authjwt\model\AuthRequest.class
+pe\valdemar\authjwt\AuthJwtApplication.class
+pe\valdemar\authjwt\model\TokenProperties.class
+pe\valdemar\authjwt\config\SecurityConfig.class
+pe\valdemar\authjwt\controller\AuthController.class
+pe\valdemar\authjwt\util\TokenUtil.class
