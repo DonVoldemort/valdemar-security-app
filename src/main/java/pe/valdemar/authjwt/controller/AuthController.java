@@ -22,8 +22,10 @@ public class AuthController {
 
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestBody AuthRequest request) {
-        if (tokenProperties.getUsername().equals(request.getUsername()) &&
+        if (tokenProperties.getUsername() != null && tokenProperties.getPassword() != null &&
+                tokenProperties.getUsername().equals(request.getUsername()) &&
                 tokenProperties.getPassword().equals(request.getPassword())) {
+
             String token = tokenUtil.generateToken(request.getUsername());
             return ResponseEntity.ok(token);
         }

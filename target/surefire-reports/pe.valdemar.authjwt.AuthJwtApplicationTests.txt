@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pe.valdemar.authjwt.AuthJwtApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.56 s -- in pe.valdemar.authjwt.AuthJwtApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.29 s -- in pe.valdemar.authjwt.AuthJwtApplicationTests

@@ -1,6 +1,6 @@
-D:\Repaso\hub-security-app\hub-security-app\src\main\java\pe\valdemar\authjwt\AuthJwtApplication.java
-D:\Repaso\hub-security-app\hub-security-app\src\main\java\pe\valdemar\authjwt\config\SecurityConfig.java
-D:\Repaso\hub-security-app\hub-security-app\src\main\java\pe\valdemar\authjwt\controller\AuthController.java
-D:\Repaso\hub-security-app\hub-security-app\src\main\java\pe\valdemar\authjwt\model\AuthRequest.java
-D:\Repaso\hub-security-app\hub-security-app\src\main\java\pe\valdemar\authjwt\model\TokenProperties.java
-D:\Repaso\hub-security-app\hub-security-app\src\main\java\pe\valdemar\authjwt\util\TokenUtil.java
+D:\Repaso\hub-security-app\valdemar-security-app\src\main\java\pe\valdemar\authjwt\AuthJwtApplication.java
+D:\Repaso\hub-security-app\valdemar-security-app\src\main\java\pe\valdemar\authjwt\config\SecurityConfig.java
+D:\Repaso\hub-security-app\valdemar-security-app\src\main\java\pe\valdemar\authjwt\controller\AuthController.java
+D:\Repaso\hub-security-app\valdemar-security-app\src\main\java\pe\valdemar\authjwt\model\AuthRequest.java
+D:\Repaso\hub-security-app\valdemar-security-app\src\main\java\pe\valdemar\authjwt\model\TokenProperties.java
+D:\Repaso\hub-security-app\valdemar-security-app\src\main\java\pe\valdemar\authjwt\util\TokenUtil.java

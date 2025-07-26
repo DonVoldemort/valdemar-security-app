@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: valdemar-security-app
+  labels:
+    app: valdemar-security-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: valdemar-security-app
+  template:
+    metadata:
+      labels:
+        app: valdemar-security-app
+    spec:
+      containers:
+        - name: valdemar-security-app
+          image: valdemarregistry.azurecr.io/valdemar-security-app:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: default
+            - name: SPRING_CONFIG_IMPORT
+              value: optional:configserver:http://config-server:8888/
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: valdemar-security-app
+spec:
+  type: LoadBalancer
+  selector:
+    app: valdemar-security-app
+  ports:
+    - port: 80
+      targetPort: 8080

@@ -14,6 +14,10 @@ public class TokenUtil {
 
     private final TokenProperties tokenProperties;
 
+    /**
+     *
+     * @param tokenProperties
+     */
     public TokenUtil(TokenProperties tokenProperties) {
         this.tokenProperties = tokenProperties;
     }
