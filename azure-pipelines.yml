@@ -4,7 +4,7 @@ trigger:
       - master
 
 variables:
-  azureSubscription: 'valdemar-devops-conn'
+  azureSubscription: 'DonVoldemort'
   acrName: 'valdemarregistry'
   acrLoginServer: 'valdemarregistry.azurecr.io'
   imageName: 'valdemar-security-app'
